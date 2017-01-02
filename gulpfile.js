@@ -20,3 +20,11 @@ gulp.task('default',function  () {
 	gulp.src(file.path).pipe(t1('测试方法')).
 	pipe(t2('测试打印内容'));
 });
+
+gulp.task('apitest',function  () {
+	gulp.src('test/**/*.js',{
+		buffer:true,//使用buffer的方式进行读写
+		read:true,//如果该项被设置为 false， 那么 file.contents 会返回空值（null），也就是并不会去读取文件
+		base:'test'//会加上原路径中基础部分除去本字符串
+	});
+});
