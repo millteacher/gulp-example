@@ -1,8 +1,3 @@
-# gulp-example
-
-### 自定义插件
-自定义插件在script中进行定义
-```
 var tpl=require('./template');
 
 module.exports=tpl({
@@ -19,8 +14,3 @@ module.exports=tpl({
       return content+"this is my plagin 1";
     }
 });
-```
-gulpfile.js文件中可以引入并进行使用
-```
-var t1=require('./script/t1');
-```

@@ -1,0 +1,29 @@
+{
+  "name": "gulp-example",
+  "version": "1.0.0",
+  "description": "this is test",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/millteacher/gulp-example.git"
+  },
+  "keywords": [
+    "gulp",
+    "example"
+  ],
+  "author": "mill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/millteacher/gulp-example/issues"
+  },
+  "homepage": "https://github.com/millteacher/gulp-example#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
