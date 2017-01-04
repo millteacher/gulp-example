@@ -2,9 +2,14 @@ var gulp = require('gulp');
 var gutil=require('gulp-util');
 var path=require('path');
 
+//自定义任务
+var uncss=require('./tasks/uncss.task');
+
 // 自定义插件
 var t1=require('./script/t1');
 var t2=require('./script/t2');
+
+gulp.task('uncss',uncss);
 
 var file=new gutil.File({
 	base:path.join(__dirname,'./test/'),

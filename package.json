@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/millteacher/gulp-example#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-uncss": "^1.0.6",
+    "mem-fs": "^1.1.3",
+    "mem-fs-editor": "^2.3.0"
   }
 }
